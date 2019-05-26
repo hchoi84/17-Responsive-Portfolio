@@ -76,6 +76,9 @@
 .projects{
     width: 32%;
 }
+.showcase_sample{
+    font-size: 0px;
+}
 .showcase_image{
     width: 100%;
 }
@@ -117,4 +120,41 @@
 .social_icon{
     height: 17px;
     vertical-align: bottom;
+}
+
+@media only screen and (max-width: 800px){
+    .container{
+        width: 100%;
+    }
+    .head_left{
+        width: 100%;
+    }
+    .head_right, .profile_img{
+        display: none;
+    }
+    .profile_about{
+        margin: 0%;
+    }
+    .showcase{
+        display: block;
+    }
+    .projects{
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .technologies{
+        height: 200px;
+    }
+    .section_body{
+        height: auto;
+    }
+    .profile, .showcase{
+        display: inline;
+    }
+    #laMode, #familyContacts, #fiveEleven{
+        display: none;
+    }
+    #laMode:target, #familyContacts:target, #fiveEleven:target{
+        display: block;
+    }
 }
