@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 1px dotted red;
+}
+
+.container{
+    box-sizing: border-box;
+    width: 1000px;
+    margin: auto;
+    padding: auto;
+}
+
+
+.head{
+    width: 100%;
+    padding: 1% 2%;
+    background-image: linear-gradient(to bottom, #f1f1f1, #fefefe);
+    box-sizing: border-box;
+}
+.head_left{
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+    font-size: 1.5em;
+}
+.head_right{
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    margin-top: 15px;
+    width: 50%;
+    font-size: 1.1em;
+}
+
+.main{
+    width: 100%;
+    padding: 2% 2%;
+    box-sizing: border-box;
+    background-image: radial-gradient(#6f5964, #1a0a0e);
+}
+.profile{
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+}
+.profile_img{
+    box-sizing: border-box;
+    width: 40%;
+    height: auto;
+    border: 5px solid #c0c0c0;
+}
+.profile_about{
+    display: inline-block;
+    margin-left: 2%;
+}
+.section_title{
+    background-image: linear-gradient(#b3b2b6, #888694, #b3b2b6);
+    padding: 10px 5px;
+    color: white;
+}
+.section_body{
+    background-image: linear-gradient(to left, #dacbd9, #fefefe);
+    padding: 10px 5px;
+    height: 188px;
+}
+.section_body_text{
+    margin-bottom: 10px;
+}
+
+.showcase{
+    display: flex;
+    justify-content: space-between;
+}
+.projects{
+    width: 32%;
+}
+.showcase_image{
+    width: 100%;
+}
+.showcase_body{
+    height: 145px;
+}
+.showcase_icons{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.technologies{
+    height: 150px;
+}
+.showcase_icon{
+    width: 15%;
+    height: 25%;
+    margin: 0% 1% 5% 1%;
+}
+.showcase_link{
+    display: flex;
+    justify-content: center;
+}
+.showcase_button{
+    background-color: #407d61;
+    height: 30px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.footer{
+    text-align: center;
+}
+.social_media{
+    margin-top: 10px;
+}
+.social_icon{
+    height: 17px;
+    vertical-align: bottom;
+}
